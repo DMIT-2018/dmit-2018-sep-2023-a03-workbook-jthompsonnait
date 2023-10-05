@@ -1,14 +1,17 @@
 <Query Kind="Program">
   <Connection>
-    <ID>c2e59a04-ac57-4d03-9ee7-b7b41891dc7e</ID>
+    <ID>4b5da6fb-5c95-4544-814e-55861abf7485</ID>
     <NamingServiceVersion>2</NamingServiceVersion>
     <Persist>true</Persist>
+    <Driver Assembly="(internal)" PublicKeyToken="no-strong-name">LINQPad.Drivers.EFCore.DynamicDriver</Driver>
     <Server>.</Server>
-    <AllowDateOnlyTimeOnly>true</AllowDateOnlyTimeOnly>
-    <DeferDatabasePopulation>true</DeferDatabasePopulation>
     <Database>OLTP-DMIT2018</Database>
+    <DisplayName>OLTP-DMIT2018-Entity</DisplayName>
     <DriverData>
-      <LegacyMFA>false</LegacyMFA>
+      <EncryptSqlTraffic>False</EncryptSqlTraffic>
+      <PreserveNumeric1>True</PreserveNumeric1>
+      <EFProvider>Microsoft.EntityFrameworkCore.SqlServer</EFProvider>
+      <TrustServerCertificate>False</TrustServerCertificate>
     </DriverData>
   </Connection>
 </Query>
@@ -54,6 +57,23 @@ void Main()
 	Test_GetCustomers_RemoveFromViewFlag_False();
 	Console.WriteLine();
 	#endregion
+
+	#region Add/Edit Customer 
+	//	Test Ensure the Add/Edit Customer functionality handles missing data appropriately
+	Console.WriteLine("-------  Test_AddEditCustomer_Missing_Data  -------");
+	Test_AddEditCustomer_Missing_Data();
+	Console.WriteLine();
+
+	//	Test Validate the functionality of adding a new customer to the system.
+	Console.WriteLine("-------  Test_AddCustomer  -------");
+	Test_AddCustomer();
+	Console.WriteLine();
+
+	// Test Validate the functionality of editing an existing customer's details.
+	Console.WriteLine("-------  Test_EditCustomer  -------");
+	Test_EditCustomer();
+	Console.WriteLine();
+	#endregion
 }
 
 #region Tests
@@ -65,10 +85,34 @@ void Main()
 public void Test_GetCustomers_Missing_Paramters()
 {
 	// Arrange: Set up necessary preconditions and inputs.
+	string lastName = string.Empty;
+	string phone = string.Empty;
 
 	// Act: Execute the functionality being tested.
+	//	We are assuming that our method needs a last name or phone number
+	//		to return customer records.
+	string actual = string.Empty;
+	try
+	{
+		GetCustomers(lastName, phone);
+	}
+	//	catch the null exception from our method.
+	catch (ArgumentNullException ex)
+	{
+		//	refactor to use the parameter name
+		actual = ex.ParamName;
+	}
+
 
 	// Assert: Verify that the output matches expected results.
+	string expected = "XXXXXPlease provide either a last name and/or phone number";
+	string isValid = actual == expected ? "Pass" : "Fail";
+
+	//	show the result to the user.
+	//	console message formmated for readability
+	Console.WriteLine($"-- {isValid} -- Test_GetCustomers_Missing_Parameters");
+	Console.WriteLine($"Expected: {expected}");
+	Console.WriteLine($"Actual: {actual}");
 }
 
 /// <summary>
@@ -122,6 +166,39 @@ public void Test_GetCustomers_RemoveFromViewFlag_False()
 
 	// Assert: Verify that the output matches expected results.
 }
+#endregion
+
+#region Customer Add/Edit
+//	Test Ensure the Add/Edit Customer functionality handles missing data appropriately
+public void Test_AddEditCustomer_Missing_Data()
+{
+	// 	Arrange: Set up necessary preconditions and inputs.
+
+	// Act: Execute the functionality being tested.
+
+	// Assert: Verify that the output matches expected results.
+}
+
+//	Test Validate the functionality of adding a new customer to the system.
+public void Test_AddCustomer()
+{
+	// 	Arrange: Set up necessary preconditions and inputs.
+
+	// Act: Execute the functionality being tested.
+
+	// Assert: Verify that the output matches expected results.
+}
+
+// Test Validate the functionality of editing an existing customer's details.
+public void Test_EditCustomer()
+{
+	// Arrange: Set up necessary preconditions and inputs.
+
+	// Act: Execute the functionality being tested.
+
+	// Assert: Verify that the output matches expected results.
+}
+
 #endregion
 #endregion
 
