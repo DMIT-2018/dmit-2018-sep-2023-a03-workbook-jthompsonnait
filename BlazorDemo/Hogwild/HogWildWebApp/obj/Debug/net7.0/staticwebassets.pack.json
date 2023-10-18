@@ -1,0 +1,77 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\HogWildWebApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\HogWildWebApp.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.HogWildWebApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.HogWildWebApp.props",
+      "PackagePath": "build\\HogWildWebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.HogWildWebApp.props",
+      "PackagePath": "buildMultiTargeting\\HogWildWebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.HogWildWebApp.props",
+      "PackagePath": "buildTransitive\\HogWildWebApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
