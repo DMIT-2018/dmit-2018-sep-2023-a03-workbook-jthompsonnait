@@ -6,3 +6,80 @@
 
 <!-- Main heading of the page-->
 <h1>Introduction to Blazor Page (Review)</h1>
+
+@{
+    //  Blazor components combine C# and HTML code in a single file
+    //  The @ symbol is used to switch between the HTML and c# environments
+    //  When using @, you're in the c# environment, allowing for c#code exceution
+    //  Without @, you're in the HTML environment, where you write standard HTML
+}
+<!-- This is a header indication a demonstration of using methods-->
+<div>
+    <h3>Demonstration of using methods</h3>
+
+    <!-- Conditionally display content based on the myName variable-->
+    <p>
+        @if (string.IsNullOrWhiteSpace(myName))
+        {
+            <!-- Display a message when myName is empty or null, indicating that the random number is odd-->
+        <p>The random number is odd {@oddEvenValue}</p>
+        }
+        else
+        {
+        <p>@myName</p>
+        }
+    </p>
+
+    <!-- This is a button that triggers the RandomValue method when clicked-->
+    <button class="btn-success" @onclick="RandomValue">Random Value</button>
+</div>
+<section class="setflex">
+    <div class="onethird">
+        <!-- Heading for this section-->
+        <h3>Text Boxes</h3>
+        <!-- Label and input for entering an email-->
+        <label>
+            Enter an Email
+            <input type="email" @bind="emailText" placeholder="Enter Email" />
+        </label>
+        <br />
+        <!-- Label and input for entering an password-->
+        <label>
+            Enter an password
+            <input type="password" @bind="passwordText" placeholder="Enter password" />
+        </label>
+        <br />
+        <!-- Label and input for entering an date-->
+        <label>
+            Enter an Date
+            <input type="date" @bind="dateText" />
+        </label>
+        <br />
+
+        <!-- Button to trigger the Text Submit method-->
+        <button class="btn-success" @onclick="TextSubmit">Text Submit</button>
+    </div>
+
+    <div class="onethird">
+        <h3>Radio Buttons, Check Box and Text Area</h3>
+        <br/>
+        <!-- Radio Buttons using Collections-->
+        <label>
+            Select your favorite meal using a foreach loop
+            <br/>
+        </label>
+        <br/>
+        @foreach (var item in @meals)
+        {
+            @*  Loop through the meals list and create radio buttons for each meal option *@
+            <input type="radio" name="meal" value="@item" @onchange="HandleMealSelection" checked="@(item == meal)" /> @item
+            <br />  <!-- Line break to separate radio buttons -->
+        }
+
+        <br />
+    </div>
+</section>
+
+<div>
+    <h2>@feedback</h2>
+</div>
