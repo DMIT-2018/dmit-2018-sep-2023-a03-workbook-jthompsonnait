@@ -2,9 +2,6 @@
 <ArrayOfArrayOfArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ArrayOfArrayOfString>
     <ArrayOfString>
-      <string>AppCapabilitiesHogWildWebApp\HogWildWebApp.csproj</string>
-    </ArrayOfString>
-    <ArrayOfString>
       <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildWebApp\Pages\SamplePages\Basics.razor</string>
       <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildWebApp\Pages\SamplePages\Basics.razor.cs</string>
       <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildWebApp\Pages\SamplePages\Basics.razor.css</string>

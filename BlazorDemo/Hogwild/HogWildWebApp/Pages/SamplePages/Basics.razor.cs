@@ -21,8 +21,8 @@ namespace HogWildWebApp.Pages.SamplePages
         #endregion
 
         #region Radio Buttons, Check boxes & Text Area
-        //  selected meal
-        private string meal = "breakfast";
+        //  selected loopMeal
+        private string loopMeal = "breakfast";
         private string[] meals { get; set; } = new string[] {"breakfast", "lunch", "dinner", "snack"};
         //  used to hold the value of the acceptance
         private bool acceptanceBox;
@@ -79,10 +79,10 @@ namespace HogWildWebApp.Pages.SamplePages
             InvokeAsync(StateHasChanged);
         }
 
-        //  Handle the selection of the loop meal
+        //  Handle the selection of the loop loopMeal
         private void HandleMealSelection(ChangeEventArgs e)
         {
-            meal = e.Value.ToString();
+            loopMeal = e.Value.ToString();
         }
     }
 }
