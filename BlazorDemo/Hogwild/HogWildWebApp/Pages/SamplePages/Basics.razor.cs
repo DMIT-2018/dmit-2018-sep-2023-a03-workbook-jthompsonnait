@@ -1,4 +1,5 @@
-﻿using HogWildWebApp.Areas.ViewModels;
+﻿using HogWildSystem.Entities;
+using HogWildWebApp.Areas.ViewModels;
 using Microsoft.AspNetCore.Components;
 
 namespace HogWildWebApp.Pages.SamplePages
@@ -32,7 +33,7 @@ namespace HogWildWebApp.Pages.SamplePages
         private string messageBody;
         #endregion
 
-        #region List and Sliders
+           #region List and Sliders
 
         //  pretend tat the following collection is data from a database
         //  The collection is based on a 2 property class called SelectionList
