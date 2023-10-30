@@ -24,6 +24,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Qmxhem9yUGFnaW5hdGlvblxCbGF6b3JQYWdlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/GitHub/dmit-2018-sep-2023-a03-workbook-jthompsonnait/BlazorDemo/Hogwild/HogWildWebApp/Components/DialogConfirm.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEaWFsb2dDb25maXJtLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/GitHub/dmit-2018-sep-2023-a03-workbook-jthompsonnait/BlazorDemo/Hogwild/HogWildWebApp/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

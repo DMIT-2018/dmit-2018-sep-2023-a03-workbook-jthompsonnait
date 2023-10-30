@@ -2,49 +2,39 @@
 <ArrayOfArrayOfArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ArrayOfArrayOfString>
     <ArrayOfString>
-      <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildSystem\DAL\HogWildContext.cs</string>
+      <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildWebApp\Pages\SamplePages\WorkingVersions.razor</string>
+      <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildWebApp\Pages\SamplePages\WorkingVersions.razor.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>C:\Users\JTHOMPSON\AppData\Local\Temp\PowerToolsReadMe.md</string>
+      <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildSystem\BLL\WorkingVersionsService.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildSystem\Entities\Category.cs</string>
-    </ArrayOfString>
-    <ArrayOfString>
-      <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildSystem\Entities\Customer.cs</string>
-    </ArrayOfString>
-    <ArrayOfString>
-      <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildSystem\Entities\Employee.cs</string>
-    </ArrayOfString>
-    <ArrayOfString>
-      <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildSystem\Entities\Invoice.cs</string>
-    </ArrayOfString>
-    <ArrayOfString>
-      <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildSystem\Entities\InvoiceLine.cs</string>
-    </ArrayOfString>
-    <ArrayOfString>
-      <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildSystem\Entities\Lookup.cs</string>
-    </ArrayOfString>
-    <ArrayOfString>
-      <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildSystem\Entities\Part.cs</string>
-    </ArrayOfString>
-    <ArrayOfString>
-      <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildSystem\Entities\WorkingVersion.cs</string>
+      <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildWebApp\Program.cs</string>
     </ArrayOfString>
     <ArrayOfString>
       <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildWebApp\Pages\SamplePages\Basics.razor.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildSystem\HogWildExtension.cs</string>
+      <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildWebApp\BlazorPagination\BlazorPager.razor</string>
+      <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildWebApp\BlazorPagination\BlazorPager.razor.cs</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildWebApp\appsettings.json</string>
+      <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildWebApp\Shared\TableTemplate.razor</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\Hogwild.sln</string>
+      <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildWebApp\HogWildWebApp.csproj</string>
     </ArrayOfString>
     <ArrayOfString>
-      <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildWebApp\Program.cs</string>
+      <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildWebApp\_Imports.razor</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildWebApp\Pages\_Host.cshtml</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildWebApp\Shared\MainLayout.razor</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildWebApp\Components\DialogConfirm.razor.cs</string>
     </ArrayOfString>
   </ArrayOfArrayOfString>
 </ArrayOfArrayOfArrayOfString>
