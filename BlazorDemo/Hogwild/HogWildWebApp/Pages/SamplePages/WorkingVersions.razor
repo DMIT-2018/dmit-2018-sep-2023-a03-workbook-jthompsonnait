@@ -1,0 +1,27 @@
+﻿@page "/SamplePages/WorkingVersions"
+<h3>Working Versions</h3>
+<div>
+    @if (workingVersionsView.VersionId > 0)
+    {
+        <label>Version ID: @workingVersionsView.VersionId</label>
+        <br>
+        <label>Major: @workingVersionsView.Major</label>
+        <br>
+        <label>Minor: @workingVersionsView.Minor</label>
+        <br>
+        <label>Build: @workingVersionsView.Build</label>
+        <br>
+        <label>Revision: @workingVersionsView.Revision</label>
+        <br>
+        <label>Date: @workingVersionsView.AsOfDate</label>
+        <br>
+        <label>Comments: @workingVersionsView.Comments</label>
+        <br>
+    }
+    <p>
+        <!-- Button to trigger the "Get Working Version"" method -->
+        <button class="btn-success" @onclick="GetWorkingVersions">
+            Working Versions
+        </button>
+    </p>
+</div>

@@ -20,6 +20,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/GitHub/dmit-2018-sep-2023-a03-workbook-jthompsonnait/BlazorDemo/Hogwild/HogWildWebApp/BlazorPagination/BlazorPager.razor]
+build_metadata.AdditionalFiles.TargetPath = Qmxhem9yUGFnaW5hdGlvblxCbGF6b3JQYWdlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/GitHub/dmit-2018-sep-2023-a03-workbook-jthompsonnait/BlazorDemo/Hogwild/HogWildWebApp/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -32,12 +36,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/GitHub/dmit-2018-sep-2023-a03-workbook-jthompsonnait/BlazorDemo/Hogwild/HogWildWebApp/Pages/SamplePages/WorkingVersions.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FtcGxlUGFnZXNcV29ya2luZ1ZlcnNpb25zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/GitHub/dmit-2018-sep-2023-a03-workbook-jthompsonnait/BlazorDemo/Hogwild/HogWildWebApp/Shared/LoginDisplay.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luRGlzcGxheS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/GitHub/dmit-2018-sep-2023-a03-workbook-jthompsonnait/BlazorDemo/Hogwild/HogWildWebApp/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GitHub/dmit-2018-sep-2023-a03-workbook-jthompsonnait/BlazorDemo/Hogwild/HogWildWebApp/Shared/TableTemplate.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFRhYmxlVGVtcGxhdGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/GitHub/dmit-2018-sep-2023-a03-workbook-jthompsonnait/BlazorDemo/Hogwild/HogWildWebApp/_Imports.razor]

@@ -37,6 +37,15 @@
                     <span>Basics</span>
                 </NavLink>
             }
+            
+            <!-- check if the Sample Pages section is expanded-->
+            @if (expandSamplePages)
+            {
+                <!-- Nested NavLink within the Sample Pages section-->
+                <NavLink class="nav-link" href="/SamplePages/WorkingVersions">
+                    <span>Working Versions</span>
+                </NavLink>
+            }
         </div>
     </nav>
 </div>
