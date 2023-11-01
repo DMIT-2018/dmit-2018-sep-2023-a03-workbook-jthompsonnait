@@ -42,6 +42,18 @@ namespace HogWildSystem
                 return new WorkingVersionsService(context);
             });
 
+            //  adding any services that you create in the class library (bll)
+            //  using .AddTransient<t>(...)
+            services.AddTransient<CustomerService>((ServiceProvider) =>
+            {
+                //  Retrieve an instance of HogWildContext from the service provider.
+                var context = ServiceProvider.GetService<HogWildContext>();
+
+                //  Create a new instance of WorkingVersionsService,
+                //      passing the HogWoldContext instance as a parameter.
+                return new CustomerService(context);
+            });
+
         }
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "i5+AYtlU82r+l+HhKvtS1jwt4SZxykfgKgzlCyQ9dIc=",
+  "Hash": "yxIsCo24GH5Ppv1GCprULV7B+XCMicM33lj83tDI0YU=",
   "Source": "HogWildWebApp",
   "BasePath": "_content/HogWildWebApp",
   "Mode": "Default",
@@ -1290,6 +1290,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\JTHOMPSON\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\JTHOMPSON\\.nuget\\packages\\mudblazor\\6.11.0\\staticwebassets\\MudBlazor.min.css",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\JTHOMPSON\\.nuget\\packages\\mudblazor\\6.11.0\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\JTHOMPSON\\.nuget\\packages\\mudblazor\\6.11.0\\staticwebassets\\MudBlazor.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\JTHOMPSON\\.nuget\\packages\\mudblazor\\6.11.0\\staticwebassets\\MudBlazor.min.js",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\JTHOMPSON\\.nuget\\packages\\mudblazor\\6.11.0\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\JTHOMPSON\\.nuget\\packages\\mudblazor\\6.11.0\\staticwebassets\\MudBlazor.min.js"
     }
   ]
 }

@@ -87,3 +87,12 @@ C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWi
 C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildWebApp\obj\Debug\net7.0\scopedcss\Pages\SamplePages\Basics.razor.rz.scp.css
 C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildWebApp\bin\Debug\net7.0\HogWildSystem.dll
 C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildWebApp\bin\Debug\net7.0\HogWildSystem.pdb
+C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildWebApp\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
+C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildWebApp\bin\Debug\net7.0\Microsoft.AspNetCore.Components.dll
+C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildWebApp\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildWebApp\bin\Debug\net7.0\Microsoft.AspNetCore.Components.Web.dll
+C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildWebApp\bin\Debug\net7.0\Microsoft.AspNetCore.Metadata.dll
+C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildWebApp\bin\Debug\net7.0\Microsoft.Extensions.Localization.dll
+C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildWebApp\bin\Debug\net7.0\Microsoft.Extensions.Localization.Abstractions.dll
+C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildWebApp\bin\Debug\net7.0\Microsoft.JSInterop.dll
+C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildWebApp\bin\Debug\net7.0\MudBlazor.dll
