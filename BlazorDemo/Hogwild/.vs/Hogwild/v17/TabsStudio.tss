@@ -2,29 +2,11 @@
 <ArrayOfArrayOfArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ArrayOfArrayOfString>
     <ArrayOfString>
-      <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildWebApp\Program.cs</string>
-    </ArrayOfString>
-    <ArrayOfString>
-      <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildWebApp\Pages\_Host.cshtml</string>
-    </ArrayOfString>
-    <ArrayOfString>
-      <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildSystem\ViewModels\CustomerSearchView.cs</string>
-    </ArrayOfString>
-    <ArrayOfString>
-      <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildSystem\BLL\CustomerService.cs</string>
-    </ArrayOfString>
-    <ArrayOfString>
-      <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildSystem\BLL\WorkingVersionsService.cs</string>
-    </ArrayOfString>
-    <ArrayOfString>
-      <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildSystem\HogWildExtension.cs</string>
-    </ArrayOfString>
-    <ArrayOfString>
-      <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildWebApp\Shared\NavMenu.razor</string>
-    </ArrayOfString>
-    <ArrayOfString>
       <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildWebApp\Pages\SamplePages\CustomerList.razor</string>
       <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildWebApp\Pages\SamplePages\CustomerList.razor.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildWebApp\Shared\BlazorHelperClass.cs</string>
     </ArrayOfString>
   </ArrayOfArrayOfString>
 </ArrayOfArrayOfArrayOfString>

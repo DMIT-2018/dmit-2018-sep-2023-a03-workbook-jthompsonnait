@@ -1,4 +1,65 @@
 ﻿@page "/SamplePages/CustomerList"
 <PageTitle>Customer List</PageTitle>
 <h3>Customer List</h3>
+<header>
+    <h4>Search</h4>
+    <p>
+        <label>Last Name:</label>
+        <InputText id="lastName"
+                   Style="Width: 140px; background-color: lightgray"
+        @bind-Value="lastName" />
+    </p>
+    <p>
+        <label>Phone #:</label>
+        <InputText id="phoneNumber"
+                   Style="Width: 140px; background-color: lightgray"
+        @bind-Value="phoneNumber" />
+    </p>
+    <MudButton Variant="Variant.Filled" Color="Color.Primary" @onclick="Search">Search</MudButton>
+    <MudButton Variant="Variant.Filled" Color="Color.Primary" @onclick="New">New</MudButton>
+</header>
+<TableTemplate Items="Customers" Context="CustomerSearchView">
+    <TableHeader>
+        <th></th>
+        <th></th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>City</th>
+        <th>Phone</th>
+        <th>Email</th>
+        <th>Total Sales</th>
+    </TableHeader>
+    <RowTemplate>
+        <td>
+            <button class="btn-success" @onclick="() => EditCustomer()">Edit</button>
+        </td>
+        <td>
+            <button class="btn-success" @onclick="() => NewInvoice()">New Invoice</button>
+        </td>
+        <td>@CustomerSearchView.FirstName</td>
+        <td>@CustomerSearchView.LastName</td>
+        <td>@CustomerSearchView.City</td>
+        <td>@CustomerSearchView.Phone</td>
+        <td>@CustomerSearchView.Email</td>
+        <td>$@CustomerSearchView.TotalSales</td>
+    </RowTemplate>
+</TableTemplate>
+<footer>
+    @if (hasFeedback)
+    {
+        <blockquote>@feedbackMessage</blockquote>
+    }
+    @if (hasError)
+    {
+        <blockquote>
+            @errorMessage
+            <ul>
+                @foreach (var detail in errorDetails)
+                {
+                    <li>@detail</li>
+                }
+            </ul>
+        </blockquote>
+    }
+</footer>
 
