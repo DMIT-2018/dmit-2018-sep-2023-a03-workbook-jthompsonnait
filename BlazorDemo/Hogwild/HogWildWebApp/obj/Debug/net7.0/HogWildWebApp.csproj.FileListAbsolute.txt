@@ -96,3 +96,4 @@ C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWi
 C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildWebApp\bin\Debug\net7.0\Microsoft.Extensions.Localization.Abstractions.dll
 C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildWebApp\bin\Debug\net7.0\Microsoft.JSInterop.dll
 C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildWebApp\bin\Debug\net7.0\MudBlazor.dll
+C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildWebApp\obj\Debug\net7.0\scopedcss\Pages\SamplePages\CustomerEdit.razor.rz.scp.css

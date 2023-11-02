@@ -68,6 +68,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FtcGxlUGFnZXNcQmFzaWNzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-zanjwdljbf
 
+[C:/GitHub/dmit-2018-sep-2023-a03-workbook-jthompsonnait/BlazorDemo/Hogwild/HogWildWebApp/Pages/SamplePages/CustomerEdit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FtcGxlUGFnZXNcQ3VzdG9tZXJFZGl0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-ba5dftkq74
+
 [C:/GitHub/dmit-2018-sep-2023-a03-workbook-jthompsonnait/BlazorDemo/Hogwild/HogWildWebApp/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-09050rd1vq

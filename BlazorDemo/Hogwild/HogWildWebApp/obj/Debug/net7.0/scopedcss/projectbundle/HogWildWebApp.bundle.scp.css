@@ -41,6 +41,14 @@
     color: var(--danger-text-color);
     background-color: var(--danger-color);
 }
+/* _content/HogWildWebApp/Pages/SamplePages/CustomerEdit.razor.rz.scp.css */
+.row[b-ba5dftkq74] {
+    display: flex;
+}
+
+.column[b-ba5dftkq74] {
+    flex: 50%;
+}
 /* _content/HogWildWebApp/Shared/MainLayout.razor.rz.scp.css */
 .page[b-09050rd1vq] {
     position: relative;

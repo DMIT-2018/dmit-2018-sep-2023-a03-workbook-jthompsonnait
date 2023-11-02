@@ -8,5 +8,31 @@
     <ArrayOfString>
       <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildWebApp\Shared\BlazorHelperClass.cs</string>
     </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildSystem\Paginator\PagedResult.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildSystem\Paginator\Extensions.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildSystem\Paginator\PagedResultBase.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildSystem\Paginator\Paginator.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildSystem\BLL\CustomerService.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildSystem\HogWildExtension.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildSystem\ViewModels\CustomerEditView.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildWebApp\Pages\SamplePages\CustomerEdit.razor</string>
+      <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildWebApp\Pages\SamplePages\CustomerEdit.razor.cs</string>
+      <string>C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildWebApp\Pages\SamplePages\CustomerEdit.razor.css</string>
+    </ArrayOfString>
   </ArrayOfArrayOfString>
 </ArrayOfArrayOfArrayOfString>
