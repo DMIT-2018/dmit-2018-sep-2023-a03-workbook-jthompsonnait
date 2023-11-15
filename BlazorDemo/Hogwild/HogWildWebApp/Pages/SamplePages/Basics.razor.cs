@@ -1,5 +1,4 @@
-﻿using HogWildSystem.Entities;
-using HogWildWebApp.Areas.ViewModels;
+﻿using HogWildWebApp.Areas.ViewModels;
 using Microsoft.AspNetCore.Components;
 
 namespace HogWildWebApp.Pages.SamplePages
@@ -17,23 +16,23 @@ namespace HogWildWebApp.Pages.SamplePages
         #region Text Boxes
         //  email address
         private string emailText;
-        //  passowrd
+        //  password
         private string passwordText;
-        //  date
+        //  date 
         private DateTime? dateText = DateTime.Today;
         #endregion
 
-        #region Radio Buttons, Check boxes & Text Area
-        //  selected loopMeal
+        #region Radio Buttons, Checkboxes & Text Area
+        //  selected meal
         private string meal = "breakfast";
-        private string[] meals { get; set; } = new string[] {"breakfast", "lunch", "dinner", "snack"};
+        private string[] meals { get; set; } = new string[] { "breakfast", "lunch", "dinner", "snacks" };
         //  used to hold the value of the acceptance
         private bool acceptanceBox;
-        //  used to hold the balue for the message body
+        // used to hold the value for the message body
         private string messageBody;
         #endregion
 
-           #region List and Sliders
+        #region List and Sliders
 
         //  pretend tat the following collection is data from a database
         //  The collection is based on a 2 property class called SelectionList
@@ -61,60 +60,68 @@ namespace HogWildWebApp.Pages.SamplePages
         /// <summary>
         /// Gets or sets the review rating.
         /// </summary>
-        /// <value>The review rating.</value>
+        //  The review rating
         private int reviewRating = 5;
         #endregion
+
         //  used to display any feedback to the end user.
         private string feedback;
         #endregion
 
-        //  This method is automatically called when the component is initialized
+        // This method is automatically called when the component is initialized.
         protected override async Task OnInitializedAsync()
         {
-            //  Call the base class OnInitializedAsync method (if any)
+            // Call the base class OnInitializedAsync method (if any).
             await base.OnInitializedAsync();
 
-            //  call the RandonValue method to perform custom initialization logic.
+            // Call the 'RandomValue' method to perform custom initialization logic.
             RandomValue();
 
             // Call the 'PopulatedList' method to populate predefined data for the list.
             PopulatedList();
         }
 
-        //  Generates a random number betwen 0 and 25 using the Random class
-        //  Checks if the generated number is even
-        //  Sets the myName variable to a message if even, or to null if odd
-        private void RandomValue()
+    // Generates a random number between 0 and 25 using the Random class
+    // Checks if the generated number is even
+    // Sets the 'myName' variable to a message if even, or to null if odd
+    private void RandomValue()
         {
-            //  Create an instance of the Random class to generate random numbers
+            // Create an instance of the Random class to generate random numbers.
             Random rnd = new Random();
 
-            //  Generate a random integer between 0 (inclusive) and 25 (exclusive)
+            // Generate a random integer between 0 (inclusive) and 25 (exclusive).
             oddEvenValue = rnd.Next(0, 25);
 
-            //  Check if the generated number is even.
+            // Check if the generated number is even.
             if (oddEvenValue % 2 == 0)
             {
-                //  If the number is even, contstruct a message with the number and assign it to myName
+                // If the number is even, construct a message with the number and assign it to 'myName'.
                 myName = $"James is even {oddEvenValue}";
             }
             else
             {
-                //  If the number is odd, set myName to null,
+                // If the number is odd, set 'myName' to null.
                 myName = null;
             }
-            //  Trigger an asynchronous update of the component's state to reflect the changes made.
+
+            // Trigger an asynchronous update of the component's state to reflect the changes made.
             InvokeAsync(StateHasChanged);
         }
 
         //  This method is called when a user submits text input.
         private void TextSubmit()
         {
-            //  Combine the values of emailText, passordText, and dateText into a feedback message.
+            // Combine the values of emailText, passwordText, and dateText into a feedback message.
             feedback = $"Email {emailText}; Password {passwordText}; Date {dateText}";
 
-            //  Trigger a re-render of the component to reflect the updated feedback.
+            // Trigger a re-render of the component to reflect the updated feedback.
             InvokeAsync(StateHasChanged);
+        }
+
+        // Handle the selection of the loop meal
+        private void HandleMealSelection(ChangeEventArgs e)
+        {
+            meal = e.Value.ToString();
         }
 
         //  This method is called when a user submits radio, check box and area text.
@@ -161,7 +168,6 @@ namespace HogWildWebApp.Pages.SamplePages
             // Sort the 'rides' list alphabetically based on the 'DisplayText' property.
             rides.Sort((x, y) => x.DisplayText.CompareTo(y.DisplayText));
 
-
             // Initialize and populate the 'vacationSpots' list with predefined vacation destinations.
             vacationSpots = new List<string>();
             vacationSpots.Add("California");
@@ -170,12 +176,6 @@ namespace HogWildWebApp.Pages.SamplePages
             vacationSpots.Add("Europe");
             vacationSpots.Add("Florida");
             vacationSpots.Add("Mexico");
-        }
-
-        //  Handle the selection of the loop loopMeal
-            private void HandleMealSelection(ChangeEventArgs e)
-        {
-            meal = e.Value.ToString();
         }
     }
 }

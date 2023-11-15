@@ -1,0 +1,38 @@
+﻿.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
+
+.stack-vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.stack-horizontal, .stack-horizontal-header, .stack-horizontal-subtotal {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    font-size: x-large
+}
+
+.stack-horizontal-header {
+    justify-content: left;
+}
+
+.stack-horizontal-subtotal {
+    justify-content: right;
+}
+
+.remove_from_View_color {
+    background-color: gainsboro;
+    font-size: large;
+}
+
+.invalid_quantity_color {
+    background-color: lightcoral;
+    font-size: large;
+}

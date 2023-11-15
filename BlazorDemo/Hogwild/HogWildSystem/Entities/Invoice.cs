@@ -5,8 +5,10 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
+using HogWildSystem.Entities.dboSchema;
 
-namespace HogWildSystem.Entities;
+
+namespace HogWildSystem.Entities.dboSchema;
 
 [Table("Invoice")]
 internal partial class Invoice

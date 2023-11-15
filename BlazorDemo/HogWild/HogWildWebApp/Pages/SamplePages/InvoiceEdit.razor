@@ -1,0 +1,118 @@
+﻿@page "/SamplePages/InvoiceEdit/{InvoiceID:int}/{CustomerID:int}/{EmployeeID:int}"
+@using HogWildSystem.ViewModels
+<PageTitle>Invoice Edit</PageTitle>
+<header>
+    @if (InvoiceID == 0)
+    {
+        <h3>New Invoice</h3>
+    }
+    else
+    {
+        <h3>Invoice: @InvoiceID</h3>
+    }
+</header>
+<div class="row">
+    <p style="white-space: pre-line" />
+    @* <div class="stack-horizontal-header"> *@
+    <h4> Invoice Date: @invoice.InvoiceDate.Date.ToShortDateString()</h4>
+    <h4> Employee: @invoice.EmployeeName</h4>
+    <h4>Customer: @invoice.CustomerName</h4>
+</div>
+<body>
+    <p style="white-space: pre-line" />
+    <div>
+        <h4>Search</h4>
+        <p>
+            <label>Categories:</label>
+            <InputSelect @bind-Value="categoryID" Style="Width: 140px; background-color: lightgray">
+                <option value="0">select ...</option>
+                @foreach (var category in partCategories)
+                {
+                    <option value="@category.LookupID">@category.Name</option>
+                }
+            </InputSelect>
+        </p>
+        <p>
+            <label>Description:</label>
+            <InputText id="description"
+                       Style="Width: 140px; background-color: lightgray"
+            @bind-Value="description" />
+        </p>
+        <MudButton Variant="Variant.Filled" Color="Color.Primary" @onclick="SearchParts">Search</MudButton>
+    </div>
+    @if (parts.Count() == 0)
+    {
+        <p><em>Please enter either a description or category</em></p>
+    }
+    @if (invoice.InvoiceLines.Any() || parts.Count() > 0)
+    {
+        <TableTemplate Items="parts" Context="PartView">
+            <TableHeader>
+                <th></th>
+                <th>CategoryName</th>
+                <th>PartID</th>
+                <th>Description</th>
+                <th>Cost</th>
+                <th>Price</th>
+                <th>ROL</th>
+                <th>QOH</th>
+            </TableHeader>
+            <RowTemplate>
+                <td>
+                    <button class="btn-success" @onclick="() => AddPart(PartView.PartID)">Add</button>
+                </td>
+                <td>@PartView.CategoryName</td>
+                <td>@PartView.PartID</td>
+                <td>@PartView.Description</td>
+                <td>@PartView.Cost</td>
+                <td>@PartView.Price</td>
+                <td>@PartView.ROL</td>
+                <td>@PartView.QOH</td>
+            </RowTemplate>
+        </TableTemplate>
+        <p style="white-space: pre-line" />
+        <div>
+            <TableTemplate Items="invoice.InvoiceLines" Context="InvoiceLineView">
+                <TableHeader>
+                    <th></th>
+                    <th>Part ID</th>
+                    <th>Description</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Ext. Price</th>
+                </TableHeader>
+                <RowTemplate>
+                    <td>
+                        <MudButton Variant="Variant.Filled" Color="Color.Warning"
+                        @onclick="@(e => DeleteInvoiceLine(InvoiceLineView.PartID))">Delete</MudButton>
+                    </td>
+                    <td>@InvoiceLineView.PartID</td>
+                    <td>@InvoiceLineView.Description</td>
+                    <td>
+                        <MudTextField T="int" InputType="InputType.Number"
+                        @bind-value="@InvoiceLineView.Quantity"
+                                      Variant="Variant.Outlined" Margin="Margin.Dense"
+                                      TextChanged="UpdateSubtotalAndTax" />
+                    </td>
+                    <td>@InvoiceLineView.Price</td>
+                    <td>@InvoiceLineView.ExtentPrice</td>
+                </RowTemplate>
+            </TableTemplate>
+        </div>
+        <div class="row">
+            <div class="stack-vertical">
+                <p>---------------------------</p>
+                <p>SubTotal: @invoice.SubTotal.ToString("c")</p>
+                <p>Tax: @invoice.Tax.ToString("c")</p>
+                <p>==============</p>
+                <p><strong>Total: @invoice.Total.ToString("c")</strong></p>
+            </div>
+        </div>
+    }
+    <div>
+        <MudButton Variant="Variant.Filled" Color="Color.Primary"
+        @onclick="Save">Save</MudButton>
+        <MudButton Variant="Variant.Filled" Color="Color.Primary"
+        @onclick="Close">Close/Cancel</MudButton>
+    </div>
+</body>

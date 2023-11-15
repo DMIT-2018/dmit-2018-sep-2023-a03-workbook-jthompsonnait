@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "NVDmnoEKEDnHnOEV/IuX4l6tUC4rsiwfseNdtyhwkQ0nCEa3YIanM8TIdDUwu2ZZc3qAGgQ9eZWLCHCjXrVqQA==",
+  "dgSpecHash": "APO03r4T5WbL/oJeBWEOFi5CGIaYnDfm0gUaRGzsracupu0iJ0SY9NhWzXO2dODS4Gx2jKMVqXT6NqbUuxHEmQ==",
   "success": true,
-  "projectFilePath": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\HogWildWebApp.csproj",
+  "projectFilePath": "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildWebApp\\HogWildWebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\JTHOMPSON\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\JTHOMPSON\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\JTHOMPSON\\.nuget\\packages\\blazordialog\\2.1.0\\blazordialog.2.1.0.nupkg.sha512",
     "C:\\Users\\JTHOMPSON\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\JTHOMPSON\\.nuget\\packages\\microsoft.aspnetcore.authorization\\7.0.5\\microsoft.aspnetcore.authorization.7.0.5.nupkg.sha512",
     "C:\\Users\\JTHOMPSON\\.nuget\\packages\\microsoft.aspnetcore.components\\7.0.5\\microsoft.aspnetcore.components.7.0.5.nupkg.sha512",

@@ -1,12 +1,7 @@
-﻿using HogWildSystem.DAL;
+﻿using HogWildSystem.BLL;
+using HogWildSystem.DAL;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using HogWildSystem.BLL;
 
 namespace HogWildSystem
 {
@@ -30,30 +25,59 @@ namespace HogWildSystem
 
             services.AddDbContext<HogWildContext>(options);
 
-            //  adding any services that you create in the class library (bll)
+            //  adding any services that you create in the class library (BLL)
             //  using .AddTransient<t>(...)
+            //  working versions
             services.AddTransient<WorkingVersionsService>((ServiceProvider) =>
             {
                 //  Retrieve an instance of HogWildContext from the service provider.
                 var context = ServiceProvider.GetService<HogWildContext>();
 
-                //  Create a new instance of WorkingVersionsService,
-                //      passing the HogWoldContext instance as a parameter.
+                // Create a new instance of WorkingVersionsService,
+                //   passing the HogWildContext instance as a parameter.
                 return new WorkingVersionsService(context);
             });
 
-            //  adding any services that you create in the class library (bll)
-            //  using .AddTransient<t>(...)
             services.AddTransient<CustomerService>((ServiceProvider) =>
             {
                 //  Retrieve an instance of HogWildContext from the service provider.
                 var context = ServiceProvider.GetService<HogWildContext>();
 
-                //  Create a new instance of WorkingVersionsService,
-                //      passing the HogWoldContext instance as a parameter.
+                // Create a new instance of CustomerService,
+                //   passing the HogWildContext instance as a parameter.
                 return new CustomerService(context);
             });
 
+            services.AddTransient<CategoryLookupService>((ServiceProvider) =>
+            {
+                //  Retrieve an instance of HogWildContext from the service provider.
+                var context = ServiceProvider.GetService<HogWildContext>();
+
+                // Create a new instance of CategoryLookupService,
+                //   passing the HogWildContext instance as a parameter.
+                return new CategoryLookupService(context);
+            });
+
+            services.AddTransient<InvoiceService>((ServiceProvider) =>
+            {
+                //  Retrieve an instance of HogWildContext from the service provider.
+                var context = ServiceProvider.GetService<HogWildContext>();
+
+                // Create a new instance of CategoryLookupService,
+                //   passing the HogWildContext instance as a parameter.
+                return new InvoiceService(context);
+            });
+
+            services.AddTransient<PartService>((ServiceProvider) =>
+            {
+                //  Retrieve an instance of HogWildContext from the service provider.
+                var context = ServiceProvider.GetService<HogWildContext>();
+
+                // Create a new instance of CategoryLookupService,
+                //   passing the HogWildContext instance as a parameter.
+                return new PartService(context);
+            });
         }
     }
 }
+

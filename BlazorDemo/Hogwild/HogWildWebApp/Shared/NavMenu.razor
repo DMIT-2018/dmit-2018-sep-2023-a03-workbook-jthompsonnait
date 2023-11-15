@@ -25,43 +25,65 @@
             </NavLink>
         </div>
         <div class="nav-item px-3">
-            <!-- NavLink to expand or collapse the Sample Pages section-->
-            <NavLink class="nav-link" @onclick="()=>expandSamplePages =!expandSamplePages">
+            <!-- NavLink to expand or collapse the Sample Pages section -->
+            <NavLink class="nav-link" @onclick="()=>expandSamplePages = !expandSamplePages">
                 <span class="oi oi-list-rich" aria-hidden="true"></span> Sample Pages
             </NavLink>
-            <!-- check if the Sample Pages section is expanded-->
+    
+            <!-- Check if the Sample Pages section is expanded -->
             @if (expandSamplePages)
             {
-                <!-- Nested NavLink within the Sample Pages section-->
+                <!-- Nested NavLink within the Sample Pages section -->
                 <NavLink class="nav-link" href="/SamplePages/Basics">
-                    <span>Basics</span>
+                    <span>Basic</span>
                 </NavLink>
-            }
-            
-            <!-- check if the Sample Pages section is expanded-->
+            }  
+
+            <!-- Check if the Sample Pages section is expanded -->
             @if (expandSamplePages)
             {
-                <!-- Nested NavLink within the Sample Pages section-->
+                <!-- Nested NavLink within the Sample Pages section -->
                 <NavLink class="nav-link" href="/SamplePages/WorkingVersions">
                     <span>Working Versions</span>
                 </NavLink>
-            }
+            }  
             
-            <!-- check if the Sample Pages section is expanded-->
+            <!-- Check if the Sample Pages section is expanded -->
             @if (expandSamplePages)
             {
-                <!-- Nested NavLink within the Sample Pages section-->
+                <!-- Nested NavLink within the Sample Pages section -->
                 <NavLink class="nav-link" href="/SamplePages/CustomerList">
-                    <span>Customer</span>
+                    <span>Customers</span>
                 </NavLink>
-            }
+            }  
+            
+            <!-- Check if the Sample Pages section is expanded -->
+            @if (expandSamplePages)
+            {
+                <!-- Nested NavLink within the Sample Pages section -->
+                <NavLink class="nav-link" href="/SamplePages/SimpleListToList">
+                    <span>Simple List To List</span>
+                </NavLink>
+            }  
+            
+            <!-- Check if the Sample Pages section is expanded -->
+            @if (expandSamplePages)
+            {
+                <!-- Nested NavLink within the Sample Pages section -->
+                <NavLink class="nav-link" href="/SamplePages/SimpleNonIndexList">
+                    <span>Simple NonIndex List</span>
+                </NavLink>
+            }  
+            
+            
         </div>
     </nav>
 </div>
 
 @code {
-    //  Holds the current state of the Sample Pages section toggle
+    // Holds the current state of the Sample Pages section toggle
     private bool expandSamplePages;
+
     private bool collapseNavMenu = true;
 
     private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
@@ -70,4 +92,6 @@
     {
         collapseNavMenu = !collapseNavMenu;
     }
+
+    
 }

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ArrayOfArrayOfArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ArrayOfArrayOfString>
+    <ArrayOfString>
+      <string>C:\OD\OneDrive - NAIT\DMIT 2018 - Course Files\Blazor Demo\PassingObjects\PassingObjects\Program.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\OD\OneDrive - NAIT\DMIT 2018 - Course Files\Blazor Demo\PassingObjects\PassingObjects\Pages\SamplePages\FromPage.razor</string>
+      <string>C:\OD\OneDrive - NAIT\DMIT 2018 - Course Files\Blazor Demo\PassingObjects\PassingObjects\Pages\SamplePages\FromPage.razor.cs</string>
+    </ArrayOfString>
+    <ArrayOfString>
+      <string>C:\OD\OneDrive - NAIT\DMIT 2018 - Course Files\Blazor Demo\PassingObjects\PassingObjects\Pages\SamplePages\ToPage.razor.cs</string>
+    </ArrayOfString>
+  </ArrayOfArrayOfString>
+</ArrayOfArrayOfArrayOfString>

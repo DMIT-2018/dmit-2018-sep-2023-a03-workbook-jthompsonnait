@@ -13,6 +13,7 @@
 //  Components using with MubBlazor 
 // </summary>
 // ***********************************************************************
+
 using Microsoft.AspNetCore.Components;
 using MudBlazor;
 
@@ -21,39 +22,44 @@ namespace HogWildWebApp.Components
     /// <summary>
     /// Class DialogConfirm.
     /// </summary>
-    public partial class DialogConfirm
+    public partial class DialogConfirm : IDisposable
     {
         /// <summary>
         /// Gets or sets the mud dialog.
         /// </summary>
-        /// <value>The mud dialog.</value>
+        //  The mud dialog
         [CascadingParameter] MudDialogInstance MudDialog { get; set; }
 
         /// <summary>
         /// Gets or sets the content text.
         /// </summary>
-        /// <value>The content text.</value>
+        //  The content text
         [Parameter] public string ContentText { get; set; }
 
         /// <summary>
         /// Gets or sets the button text.
         /// </summary>
-        /// <value>The button text.</value>
+        //  The button text
         [Parameter] public string ButtonText { get; set; }
 
         /// <summary>
         /// Gets or sets the color.
         /// </summary>
-        /// <value>The color.</value>
+        //  The color
         [Parameter] public Color Color { get; set; }
 
         /// <summary>
         /// Submits this instance.
         /// </summary>
-        void Submit() => MudDialog.Close(DialogResult.Ok(true));
+        private void Submit() => MudDialog.Close(DialogResult.Ok(true));
         /// <summary>
         /// Cancels this instance.
         /// </summary>
-        void Cancel() => MudDialog.Cancel();
+        private void Cancel() => MudDialog.Cancel();
+
+        public void Dispose()
+        {
+         //   throw new NotImplementedException();
+        }
     }
 }

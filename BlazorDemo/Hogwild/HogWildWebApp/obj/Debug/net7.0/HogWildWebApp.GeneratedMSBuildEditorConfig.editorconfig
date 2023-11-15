@@ -9,89 +9,105 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HogWildWebApp
 build_property.RootNamespace = HogWildWebApp
-build_property.ProjectDir = C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildWebApp\
+build_property.ProjectDir = C:\OD\OneDrive - NAIT\DMIT 2018 - Course Files\Blazor Demo\HogWild\HogWildWebApp\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\GitHub\dmit-2018-sep-2023-a03-workbook-jthompsonnait\BlazorDemo\Hogwild\HogWildWebApp
+build_property.MSBuildProjectDirectory = C:\OD\OneDrive - NAIT\DMIT 2018 - Course Files\Blazor Demo\HogWild\HogWildWebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/GitHub/dmit-2018-sep-2023-a03-workbook-jthompsonnait/BlazorDemo/Hogwild/HogWildWebApp/App.razor]
+[C:/OD/OneDrive - NAIT/DMIT 2018 - Course Files/Blazor Demo/HogWild/HogWildWebApp/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GitHub/dmit-2018-sep-2023-a03-workbook-jthompsonnait/BlazorDemo/Hogwild/HogWildWebApp/BlazorPagination/BlazorPager.razor]
+[C:/OD/OneDrive - NAIT/DMIT 2018 - Course Files/Blazor Demo/HogWild/HogWildWebApp/BlazorPagination/BlazorPager.razor]
 build_metadata.AdditionalFiles.TargetPath = Qmxhem9yUGFnaW5hdGlvblxCbGF6b3JQYWdlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GitHub/dmit-2018-sep-2023-a03-workbook-jthompsonnait/BlazorDemo/Hogwild/HogWildWebApp/Components/DialogConfirm.razor]
+[C:/OD/OneDrive - NAIT/DMIT 2018 - Course Files/Blazor Demo/HogWild/HogWildWebApp/Components/DialogConfirm.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xEaWFsb2dDb25maXJtLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GitHub/dmit-2018-sep-2023-a03-workbook-jthompsonnait/BlazorDemo/Hogwild/HogWildWebApp/Pages/Counter.razor]
+[C:/OD/OneDrive - NAIT/DMIT 2018 - Course Files/Blazor Demo/HogWild/HogWildWebApp/Components/SimpleComponentDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xTaW1wbGVDb21wb25lbnREaWFsb2cucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/OD/OneDrive - NAIT/DMIT 2018 - Course Files/Blazor Demo/HogWild/HogWildWebApp/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GitHub/dmit-2018-sep-2023-a03-workbook-jthompsonnait/BlazorDemo/Hogwild/HogWildWebApp/Pages/FetchData.razor]
+[C:/OD/OneDrive - NAIT/DMIT 2018 - Course Files/Blazor Demo/HogWild/HogWildWebApp/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GitHub/dmit-2018-sep-2023-a03-workbook-jthompsonnait/BlazorDemo/Hogwild/HogWildWebApp/Pages/Index.razor]
+[C:/OD/OneDrive - NAIT/DMIT 2018 - Course Files/Blazor Demo/HogWild/HogWildWebApp/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GitHub/dmit-2018-sep-2023-a03-workbook-jthompsonnait/BlazorDemo/Hogwild/HogWildWebApp/Pages/SamplePages/CustomerList.razor]
+[C:/OD/OneDrive - NAIT/DMIT 2018 - Course Files/Blazor Demo/HogWild/HogWildWebApp/Pages/SamplePages/CustomerList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FtcGxlUGFnZXNcQ3VzdG9tZXJMaXN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GitHub/dmit-2018-sep-2023-a03-workbook-jthompsonnait/BlazorDemo/Hogwild/HogWildWebApp/Pages/SamplePages/WorkingVersions.razor]
+[C:/OD/OneDrive - NAIT/DMIT 2018 - Course Files/Blazor Demo/HogWild/HogWildWebApp/Pages/SamplePages/SimpleNonIndexList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FtcGxlUGFnZXNcU2ltcGxlTm9uSW5kZXhMaXN0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/OD/OneDrive - NAIT/DMIT 2018 - Course Files/Blazor Demo/HogWild/HogWildWebApp/Pages/SamplePages/WorkingVersions.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FtcGxlUGFnZXNcV29ya2luZ1ZlcnNpb25zLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GitHub/dmit-2018-sep-2023-a03-workbook-jthompsonnait/BlazorDemo/Hogwild/HogWildWebApp/Shared/LoginDisplay.razor]
+[C:/OD/OneDrive - NAIT/DMIT 2018 - Course Files/Blazor Demo/HogWild/HogWildWebApp/Shared/LoginDisplay.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luRGlzcGxheS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GitHub/dmit-2018-sep-2023-a03-workbook-jthompsonnait/BlazorDemo/Hogwild/HogWildWebApp/Shared/SurveyPrompt.razor]
+[C:/OD/OneDrive - NAIT/DMIT 2018 - Course Files/Blazor Demo/HogWild/HogWildWebApp/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GitHub/dmit-2018-sep-2023-a03-workbook-jthompsonnait/BlazorDemo/Hogwild/HogWildWebApp/Shared/TableTemplate.razor]
+[C:/OD/OneDrive - NAIT/DMIT 2018 - Course Files/Blazor Demo/HogWild/HogWildWebApp/Shared/TableTemplate.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFRhYmxlVGVtcGxhdGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GitHub/dmit-2018-sep-2023-a03-workbook-jthompsonnait/BlazorDemo/Hogwild/HogWildWebApp/_Imports.razor]
+[C:/OD/OneDrive - NAIT/DMIT 2018 - Course Files/Blazor Demo/HogWild/HogWildWebApp/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GitHub/dmit-2018-sep-2023-a03-workbook-jthompsonnait/BlazorDemo/Hogwild/HogWildWebApp/Pages/SamplePages/Basics.razor]
+[C:/OD/OneDrive - NAIT/DMIT 2018 - Course Files/Blazor Demo/HogWild/HogWildWebApp/Pages/SamplePages/Basics.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FtcGxlUGFnZXNcQmFzaWNzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-zanjwdljbf
 
-[C:/GitHub/dmit-2018-sep-2023-a03-workbook-jthompsonnait/BlazorDemo/Hogwild/HogWildWebApp/Pages/SamplePages/CustomerEdit.razor]
+[C:/OD/OneDrive - NAIT/DMIT 2018 - Course Files/Blazor Demo/HogWild/HogWildWebApp/Pages/SamplePages/CustomerEdit.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FtcGxlUGFnZXNcQ3VzdG9tZXJFZGl0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-ba5dftkq74
 
-[C:/GitHub/dmit-2018-sep-2023-a03-workbook-jthompsonnait/BlazorDemo/Hogwild/HogWildWebApp/Shared/MainLayout.razor]
+[C:/OD/OneDrive - NAIT/DMIT 2018 - Course Files/Blazor Demo/HogWild/HogWildWebApp/Pages/SamplePages/InvoiceEdit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FtcGxlUGFnZXNcSW52b2ljZUVkaXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-028crwnuos
+
+[C:/OD/OneDrive - NAIT/DMIT 2018 - Course Files/Blazor Demo/HogWild/HogWildWebApp/Pages/SamplePages/SimpleListToList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2FtcGxlUGFnZXNcU2ltcGxlTGlzdFRvTGlzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-k8m3ra8sm5
+
+[C:/OD/OneDrive - NAIT/DMIT 2018 - Course Files/Blazor Demo/HogWild/HogWildWebApp/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-09050rd1vq
 
-[C:/GitHub/dmit-2018-sep-2023-a03-workbook-jthompsonnait/BlazorDemo/Hogwild/HogWildWebApp/Shared/NavMenu.razor]
+[C:/OD/OneDrive - NAIT/DMIT 2018 - Course Files/Blazor Demo/HogWild/HogWildWebApp/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-asm1o0lq1q
 
-[C:/GitHub/dmit-2018-sep-2023-a03-workbook-jthompsonnait/BlazorDemo/Hogwild/HogWildWebApp/Areas/Identity/Pages/Account/LogOut.cshtml]
+[C:/OD/OneDrive - NAIT/DMIT 2018 - Course Files/Blazor Demo/HogWild/HogWildWebApp/Areas/Identity/Pages/Account/LogOut.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dPdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GitHub/dmit-2018-sep-2023-a03-workbook-jthompsonnait/BlazorDemo/Hogwild/HogWildWebApp/Areas/Identity/Pages/Shared/_LoginPartial.cshtml]
+[C:/OD/OneDrive - NAIT/DMIT 2018 - Course Files/Blazor Demo/HogWild/HogWildWebApp/Areas/Identity/Pages/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GitHub/dmit-2018-sep-2023-a03-workbook-jthompsonnait/BlazorDemo/Hogwild/HogWildWebApp/Pages/Error.cshtml]
+[C:/OD/OneDrive - NAIT/DMIT 2018 - Course Files/Blazor Demo/HogWild/HogWildWebApp/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/GitHub/dmit-2018-sep-2023-a03-workbook-jthompsonnait/BlazorDemo/Hogwild/HogWildWebApp/Pages/_Host.cshtml]
+[C:/OD/OneDrive - NAIT/DMIT 2018 - Course Files/Blazor Demo/HogWild/HogWildWebApp/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

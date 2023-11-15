@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yxIsCo24GH5Ppv1GCprULV7B+XCMicM33lj83tDI0YU=",
+  "Hash": "P5SW7x9LbAuXNOiaHwG6ZK5vu9+75jZBcKViJHQmvd8=",
   "Source": "HogWildWebApp",
   "BasePath": "_content/HogWildWebApp",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "HogWildWebApp\\wwwroot",
       "Source": "HogWildWebApp",
-      "ContentRoot": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildWebApp\\wwwroot\\",
       "BasePath": "_content/HogWildWebApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\HogWildWebApp.styles.css",
+      "Identity": "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildWebApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\HogWildWebApp.styles.css",
       "SourceId": "HogWildWebApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildWebApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/HogWildWebApp",
       "RelativePath": "HogWildWebApp.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\HogWildWebApp.styles.css"
+      "OriginalItemSpec": "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildWebApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\HogWildWebApp.styles.css"
     },
     {
-      "Identity": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\HogWildWebApp.bundle.scp.css",
+      "Identity": "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildWebApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\HogWildWebApp.bundle.scp.css",
       "SourceId": "HogWildWebApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildWebApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/HogWildWebApp",
       "RelativePath": "HogWildWebApp.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\HogWildWebApp.bundle.scp.css"
+      "OriginalItemSpec": "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildWebApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\HogWildWebApp.bundle.scp.css"
     },
     {
-      "Identity": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildWebApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "HogWildWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildWebApp\\wwwroot\\",
       "BasePath": "_content/HogWildWebApp",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildWebApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "HogWildWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildWebApp\\wwwroot\\",
       "BasePath": "_content/HogWildWebApp",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildWebApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "HogWildWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildWebApp\\wwwroot\\",
       "BasePath": "_content/HogWildWebApp",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildWebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "HogWildWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildWebApp\\wwwroot\\",
       "BasePath": "_content/HogWildWebApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildWebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "HogWildWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildWebApp\\wwwroot\\",
       "BasePath": "_content/HogWildWebApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildWebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "HogWildWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildWebApp\\wwwroot\\",
       "BasePath": "_content/HogWildWebApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildWebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "HogWildWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildWebApp\\wwwroot\\",
       "BasePath": "_content/HogWildWebApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildWebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "HogWildWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildWebApp\\wwwroot\\",
       "BasePath": "_content/HogWildWebApp",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildWebApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "HogWildWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildWebApp\\wwwroot\\",
       "BasePath": "_content/HogWildWebApp",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildWebApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "HogWildWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildWebApp\\wwwroot\\",
       "BasePath": "_content/HogWildWebApp",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildWebApp\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "HogWildWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildWebApp\\wwwroot\\",
       "BasePath": "_content/HogWildWebApp",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\wwwroot\\css\\site.css",
+      "Identity": "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildWebApp\\wwwroot\\css\\site.css",
       "SourceId": "HogWildWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildWebApp\\wwwroot\\",
       "BasePath": "_content/HogWildWebApp",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\wwwroot\\favicon.png",
+      "Identity": "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildWebApp\\wwwroot\\favicon.png",
       "SourceId": "HogWildWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildWebApp\\wwwroot\\",
       "BasePath": "_content/HogWildWebApp",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -270,6 +270,74 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\JTHOMPSON\\.nuget\\packages\\blazordialog\\2.1.0\\contentFiles\\any\\net6.0\\wwwroot\\styles.css",
+      "SourceId": "HogWildWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildWebApp\\wwwroot\\",
+      "BasePath": "_content/HogWildWebApp",
+      "RelativePath": "styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\JTHOMPSON\\.nuget\\packages\\blazordialog\\2.1.0\\contentFiles\\any\\net6.0\\wwwroot\\styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\JTHOMPSON\\.nuget\\packages\\blazordialog\\2.1.0\\contentFiles\\any\\net6.0\\wwwroot\\styles.min.css",
+      "SourceId": "HogWildWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildWebApp\\wwwroot\\",
+      "BasePath": "_content/HogWildWebApp",
+      "RelativePath": "styles.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\JTHOMPSON\\.nuget\\packages\\blazordialog\\2.1.0\\contentFiles\\any\\net6.0\\wwwroot\\styles.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\JTHOMPSON\\.nuget\\packages\\blazordialog\\2.1.0\\staticwebassets\\styles.css",
+      "SourceId": "BlazorDialog",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\JTHOMPSON\\.nuget\\packages\\blazordialog\\2.1.0\\staticwebassets\\",
+      "BasePath": "_content/BlazorDialog",
+      "RelativePath": "styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\JTHOMPSON\\.nuget\\packages\\blazordialog\\2.1.0\\staticwebassets\\styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\JTHOMPSON\\.nuget\\packages\\blazordialog\\2.1.0\\staticwebassets\\styles.min.css",
+      "SourceId": "BlazorDialog",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\JTHOMPSON\\.nuget\\packages\\blazordialog\\2.1.0\\staticwebassets\\",
+      "BasePath": "_content/BlazorDialog",
+      "RelativePath": "styles.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\JTHOMPSON\\.nuget\\packages\\blazordialog\\2.1.0\\staticwebassets\\styles.min.css"
     },
     {
       "Identity": "C:\\Users\\JTHOMPSON\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.13\\staticwebassets\\V5\\css\\site.css",

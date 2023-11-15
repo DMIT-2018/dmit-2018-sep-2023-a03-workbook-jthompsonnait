@@ -1,0 +1,5 @@
+#container[b-k8m3ra8sm5] {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 40px;
+}

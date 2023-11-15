@@ -9,7 +9,6 @@
         public string Phone { get; set; }
         public string Email { get; set; }
         public int StatusID { get; set; }
-        public decimal? TotalSales { get; set; }
-
+        public decimal TotalSales { get; set; }
     }
 }

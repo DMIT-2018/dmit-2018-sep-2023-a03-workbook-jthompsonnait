@@ -1,4 +1,5 @@
-﻿using HogWildSystem.BLL;
+﻿#nullable disable
+using HogWildSystem.BLL;
 using HogWildSystem.ViewModels;
 using Microsoft.AspNetCore.Components;
 
@@ -9,14 +10,14 @@ namespace HogWildWebApp.Pages.SamplePages
         #region Fields
         //  Property for holding any feedback messages
         private string feedback;
-        //  This private field holds a reference to the WorkingVersionsView instance.
+        // This private field holds a reference to the WorkingVersionsView instance.
         private WorkingVersionsView workingVersionsView = new WorkingVersionsView();
         #endregion
 
         #region Properties
-        //  This attribute marks the property for dependency injection
+        // This attribute marks the property for dependency injection.
         [Inject]
-        //  This property provides access to the 'WorkingVersionService' service
+        // This property provides access to the 'WorkingVersionsService' service.
         protected WorkingVersionsService WorkingVersionsService { get; set; }
         #endregion
 

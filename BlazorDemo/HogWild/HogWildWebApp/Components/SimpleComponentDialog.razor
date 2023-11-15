@@ -1,0 +1,16 @@
+﻿<DialogHeader ShowClose="true">
+    <h4>@Input</h4>
+</DialogHeader>
+<DialogBody>
+    <p>@BodyText</p>
+</DialogBody>
+<DialogFooter>
+    <button type="button" class="btn btn-primary" @onclick="@(()=> Dialog.Hide("Ok"))">Ok</button>
+    <button type="button" class="btn btn-secondary" @onclick="@(()=> Dialog.Hide("Cancel"))">Cancel</button>
+</DialogFooter>
+
+@code {
+    [CascadingParameter(Name = "ParentDialog")] Dialog Dialog { get; set; }
+    [Parameter] public string Input { get; set; }
+    [Parameter] public string BodyText { get; set; }
+}

@@ -28,7 +28,7 @@
     {
         <!--
         NOTE: To use the Sort Icon, you must added the following to the _host.cshtml file
-        <link rel="stylesheet"
+        <link rel="stylesheet" 
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         -->
         <!-- This section defines a TableTemplate for displaying customer information. -->
@@ -38,52 +38,36 @@
                 <!-- Labels information in each column -->
                 <th></th> <!-- Empty column for buttons -->
                 <th></th> <!-- Empty column for buttons -->
-                <th class="SortField @GetSortColumn("FirstName")"
-                @onclick="@( () => Sort("FirstName"))">
-                    First Name
-                    <i class="@(SetSortIcon("FirstName"))"></i>
-                </th>
-                <th class="SortField @GetSortColumn("LastName")"
-                @onclick="@( () => Sort("LastName"))">
-                    Last Name
-                    <i class="@(SetSortIcon("LastName"))"></i>
-                </th>
-                <th class="SortField @GetSortColumn("City")"
-                @onclick="@( () => Sort("City"))">
-                    City
-                    <i class="@(SetSortIcon("City"))"></i>
-                </th>
-                <th class="SortField @GetSortColumn("Phone")"
-                @onclick="@( () => Sort("Phone"))">
-                    Phone
-                    <i class="@(SetSortIcon("Phone"))"></i>
-                </th>
-                <th class="SortField @GetSortColumn("Email")"
-                @onclick="@( () => Sort("Email"))">
-                    Email
-                    <i class="@(SetSortIcon("Email"))"></i>
-                </th>
-                <th class="SortField @GetSortColumn("TotalSales")"
-                @onclick="@( () => Sort("TotalSales"))">
-                    Total Sales
-                    <i class="@(SetSortIcon("TotalSales"))"></i>
-                </th>
+                <th class="SortField @GetSortColumn("FirstName")" 
+                    @onclick="@( () => Sort("FirstName"))">First Name
+                    <i class="@(SetSortIcon("FirstName"))"></i></th>
+                <th class="SortField @GetSortColumn("LastName")" 
+                    @onclick="@( () => Sort("LastName"))">Last Name
+                    <i class="@(SetSortIcon("LastName"))"></i></th>
+                <th class="SortField @GetSortColumn("City")" 
+                    @onclick="@( () => Sort("City"))">City
+                    <i class="@(SetSortIcon("City"))"></i></th>
+                <th class="SortField @GetSortColumn("Phone")" 
+                    @onclick="@( () => Sort("Phone"))">Phone
+                    <i class="@(SetSortIcon("Phone"))"></i></th>
+                <th class="SortField @GetSortColumn("Email")" 
+                    @onclick="@( () => Sort("Email"))">Email
+                    <i class="@(SetSortIcon("Email"))"></i></th>
+                <th class="SortField @GetSortColumn("TotalSales")" 
+                    @onclick="@( () => Sort("TotalSales"))">Total Sales
+                    <i class="@(SetSortIcon("TotalSales"))"></i></th>
             </TableHeader>
             <!-- The following section defines the row template for displaying customer data. -->
             <RowTemplate>
                 <td>
                     <!-- Button to edit the customer's information -->
-                    <button class="btn-success"
-                    @onclick="() => EditCustomer(CustomerSearchView.CustomerID)">
-                        Edit
-                    </button>
+                    <button class="btn-success" 
+                            @onclick="() => EditCustomer(CustomerSearchView.CustomerID)">Edit</button>
                 </td>
                 <td>
                     <!-- Button to create a new invoice for the customer -->
-                    <button class="btn-success"
-                    @onclick="() => NewInvoice()">
-                        New Invoice
-                    </button>
+                    <button class="btn-success" 
+                            @onclick="() => NewInvoice(CustomerSearchView.CustomerID)">New Invoice</button>
                 </td>
                 <!-- Display customer information in each column -->
                 <td>@CustomerSearchView.FirstName</td>
@@ -127,4 +111,3 @@
         </blockquote>
     }
 </footer>
-

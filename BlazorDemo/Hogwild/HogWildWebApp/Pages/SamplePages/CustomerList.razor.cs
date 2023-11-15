@@ -1,178 +1,176 @@
-﻿using Azure.Core.Pipeline;
+﻿using DMIT2018.Paginator;
 using HogWildSystem.BLL;
-using HogWildSystem.Paginator;
 using HogWildSystem.ViewModels;
-using Microsoft.AspNetCore.Components;
 using HogWildWebApp.Shared;
-using HogWildWebApp.BlazorPagination;
-using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.AspNetCore.Components;
 
+namespace HogWildWebApp.Pages.SamplePages;
 
-namespace HogWildWebApp.Pages.SamplePages
+public partial class CustomerList
 {
-    public partial class CustomerList
+    #region Fields
+
+    // The last name
+    private string lastName;
+
+    // The phone number
+    private string phoneNumber;
+
+    // The feedback message
+    private string feedbackMessage;
+
+    // The error message
+    private string errorMessage;
+
+    // has feedback
+    private bool hasFeedback => !string.IsNullOrWhiteSpace(feedbackMessage);
+
+    // has error
+    private bool hasError => !string.IsNullOrWhiteSpace(errorMessage);
+
+    // error details
+    private List<string> errorDetails = new();
+    #endregion
+
+    #region Paginator
+    // Desired current page size
+    private const int PAGE_SIZE = 10;
+
+    // sort column used with the paginator
+    protected string SortField { get; set; } = "Owner";
+
+    // sort direction for the paginator
+    protected string Direction { get; set; } = "desc";
+
+    //  current page for the paginator
+    protected int CurrentPage { get; set; } = 1;
+
+    //paginator collection of customer Search view
+    protected PagedResult<CustomerSearchView> PaginatorCustomerSearch { get; set; } = new();
+
+    private async void Sort(string column)
     {
-        #region Fields
+        Direction = SortField == column ? Direction == "asc" ? "desc"
+            : "asc" : "asc";
+        SortField = column;
+        await Search();
+    }
 
-        // The last name
-        private string lastName;
+    //  sets css class to display up and down arrows
+    private string GetSortColumn(string x)
+    {
+        return x == SortField ? Direction == "desc" ? "desc" : "asc" : "";
+    }
 
-        // The phone number
-        private string phoneNumber;
-
-        // The feedback message
-        private string feedbackMessage;
-
-        // The error message
-        private string errorMessage;
-
-        // has feedback
-        private bool hasFeedback => !string.IsNullOrWhiteSpace(feedbackMessage);
-
-        // has error
-        private bool hasError => !string.IsNullOrWhiteSpace(errorMessage);
-
-        // error details
-        private List<string> errorDetails = new();
-        #endregion
-
-        #region Paginator
-
-        //  Desired current page size
-        private const int PAGE_SIZE = 10;
-        //  sort column used with the paginator
-        protected string SortField { get; set; } = "Owner";
-        //sort direction for the paginator
-        protected string Direction { get; set; } = "desc";
-
-        //  current page for the paginator
-        protected int CurrentPage { get; set; } = 1;
-
-        //  paginator collection of customer search view
-
-        protected PagedResult<CustomerSearchView> PaginatorCustomerSearch { get; set; } = new();
-
-        private async void Sort(string column)
+    // Sets the sort icon.
+    private string SetSortIcon(string columnName)
+    {
+        if (SortField != columnName)
         {
-            Direction = SortField == column ? Direction == "asc" ? "desc" : "asc" : "asc";
-            SortField = column;
-            await Search();
+            return "fa fa-sort";
         }
-
-        //  sets css class to display up and down arrows
-        private string GetSortColumn(string x)
+        if (Direction == "asc")
         {
-            return x == SortField ? Direction == "desc" ? "desc" : "asc" : "";
+            return "fa fa-sort-up";
         }
-
-        //  Sets the sort icon
-        private string SetSortIcon(string columnName)
+        else
         {
-            if (SortField == columnName)
+            return "fa fa-sort-down";
+        }
+    }
+    #endregion
+
+    #region Properties
+    // Injects the CustomerService dependency.
+    [Inject]
+    protected CustomerService CustomerService { get; set; }
+
+    // Injects the NavigationManager dependency.
+    [Inject]
+    protected NavigationManager NavigationManager { get; set; }
+
+    // Gets or sets the customers search view.
+    protected List<CustomerSearchView> Customers { get; set; } = new();
+    #endregion
+
+    #region Methods
+    // search for an existing customer
+    private async Task Search()
+    {
+        try
+        {
+            //  reset the error detail list
+            errorDetails.Clear();
+
+            //  reset the error message to an empty string
+            errorMessage = string.Empty;
+
+            //  reset feedback message to an empty string
+            feedbackMessage = String.Empty;
+
+            //  clear the customer list before we do our search
+            Customers.Clear();
+
+            if (string.IsNullOrWhiteSpace(lastName) && string.IsNullOrWhiteSpace(phoneNumber))
             {
-                return "fa fa-sort";
+                throw new ArgumentException("Please provide either a last name and/or phone number");
             }
-            if (SortField == columnName)
+
+            //  search for our customers
+            PaginatorCustomerSearch = await CustomerService.GetCustomers(lastName, phoneNumber,
+                                                CurrentPage, PAGE_SIZE, SortField, Direction);
+            await InvokeAsync(StateHasChanged);
+
+            if (PaginatorCustomerSearch.Results.Length > 0)
             {
-                return "fa fa-sort-up";
+                feedbackMessage = "Search for customer(s) was successful";
             }
             else
             {
-                return "fa fa-sort-down";
+                feedbackMessage = "No customer were found for your search criteria";
             }
         }
-
-        #endregion
-
-
-        #region Properties
-        // Injects the CustomerService dependency.
-        [Inject]
-        protected CustomerService CustomerService { get; set; }
-
-        // Injects the NavigationManager dependency.
-        [Inject]
-        protected NavigationManager NavigationManager { get; set; }
-
-        // Gets or sets the customers search view.
-        protected List<CustomerSearchView> Customers { get; set; } = new();
-        #endregion
-
-        #region Methods
-        //  Search for an existing customer
-        private async Task Search()
+        catch (ArgumentNullException ex)
         {
-            try
-            {
-                //  reset the error detail list
-                errorDetails.Clear();
-
-                //  reset the error message to an empty string
-                errorMessage = string.Empty;
-
-                //  reset feedback message to an empty string
-                feedbackMessage = String.Empty;
-
-                //  clear the customer list before we do our search
-                Customers.Clear();
-
-                if (string.IsNullOrWhiteSpace(lastName) && string.IsNullOrWhiteSpace(phoneNumber))
-                {
-                    throw new ArgumentException("Please provide either a last name and/or phone number");
-                }
-
-                PaginatorCustomerSearch = await CustomerService.GetCustomers(lastName, phoneNumber,
-                    CurrentPage, PAGE_SIZE, SortField, Direction);
-                await InvokeAsync(StateHasChanged);
-
-                if (PaginatorCustomerSearch.Results.Length > 0)
-                {
-                    feedbackMessage = "Search for customer(s) was successful";
-                }
-                else
-                {
-                    feedbackMessage = "No customer were found for your search criteria";
-                }
-            }
-            catch (ArgumentNullException ex)
-            {
-                errorMessage = BlazorHelperClass.GetInnerException(ex).Message;
-            }
-            catch (ArgumentException ex)
-            {
-                errorMessage = BlazorHelperClass.GetInnerException(ex).Message;
-            }
-            catch (AggregateException ex)
-            {
-                //  have a collection of errors
-                //  each error should be place into a separate line
-                if (!string.IsNullOrWhiteSpace(errorMessage))
-                {
-                    errorMessage = $"{errorMessage}{Environment.NewLine}";
-                }
-                errorMessage = $"{errorMessage}Unable to search for customer";
-                foreach (var error in ex.InnerExceptions)
-                {
-                    errorDetails.Add(error.Message);
-                }
-            }
+            errorMessage = BlazorHelperClass.GetInnerException(ex).Message;
         }
-
-        //  new customer
-        private void New()
+        catch (ArgumentException ex)
         {
-            NavigationManager.NavigateTo($"/SamplePages/CustomerEdit/0");
+            errorMessage = BlazorHelperClass.GetInnerException(ex).Message;
         }
-
-        //  Edit selected customer
-        private void EditCustomer(int customerID)
+        catch (AggregateException ex)
         {
-
-            NavigationManager.NavigateTo($"/SamplePages/CustomerEdit/{customerID}");
+            //  have a collection of errors
+            //  each error should be place into a separate line
+            if (!string.IsNullOrWhiteSpace(errorMessage))
+            {
+                errorMessage = $"{errorMessage}{Environment.NewLine}";
+            }
+            errorMessage = $"{errorMessage}Unable to search for customer";
+            foreach (var error in ex.InnerExceptions)
+            {
+                errorDetails.Add(error.Message);
+            }
         }
-
-        //  new invoice for selected customer
-        private void NewInvoice() { }
-        #endregion
     }
+
+    //  new customer
+    private void New()
+    {
+        NavigationManager.NavigateTo($"/SamplePages/CustomerEdit/0");
+    }
+
+    //  edit selected customer
+    private void EditCustomer(int customerID)
+    {
+        NavigationManager.NavigateTo($"/SamplePages/CustomerEdit/{customerID}");
+    }
+
+    //  new invoice for selected customer
+    private void NewInvoice(int customerID)
+    {
+
+    }
+    #endregion
 }
+

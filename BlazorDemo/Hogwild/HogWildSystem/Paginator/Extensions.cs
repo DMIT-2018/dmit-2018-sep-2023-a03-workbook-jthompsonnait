@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 // https://github.com/villainoustourist/Blazor.Pagination/tree/master
 
-namespace HogWildSystem.Paginator
+namespace DMIT2018.Paginator
 {
     public static class Extensions
     {

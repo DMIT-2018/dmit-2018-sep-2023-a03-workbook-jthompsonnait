@@ -5,13 +5,13 @@
    "DefaultDacpacSchema": null,
    "FilterSchemas": false,
    "IncludeConnectionString": false,
-   "ModelNamespace": null,
+   "ModelNamespace": "",
    "OutputContextPath": "DAL",
    "OutputPath": "Entities",
    "PreserveCasingWithRegex": true,
    "ProjectRootNamespace": "HogWildSystem",
    "Schemas": null,
-   "SelectedHandlebarsLanguage": 2,
+   "SelectedHandlebarsLanguage": 0,
    "SelectedToBeGenerated": 0,
    "T4TemplatePath": null,
    "Tables": [
@@ -48,7 +48,7 @@
          "ObjectType": 0
       }
    ],
-   "UiHint": "james-nait-dev.OLTP-DMIT2018.dbo",
+   "UiHint": "amd-3900xt-a.OLTP-DMIT2018.dbo",
    "UncountableWords": null,
    "UseBoolPropertiesWithoutDefaultSql": false,
    "UseDatabaseNames": true,
@@ -61,12 +61,11 @@
    "UseLegacyPluralizer": false,
    "UseManyToManyEntity": false,
    "UseNoDefaultConstructor": false,
-   "UseNoNavigations": false,
    "UseNoObjectFilter": false,
    "UseNodaTime": false,
    "UseNullableReferences": false,
    "UseSchemaFolders": false,
-   "UseSchemaNamespaces": false,
+   "UseSchemaNamespaces": true,
    "UseSpatial": false,
    "UseT4": false
 }

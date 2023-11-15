@@ -7,17 +7,22 @@ namespace HogWildSystem.BLL
     public class WorkingVersionsService
     {
         #region Fields
-        //  The hog wild context
+
+        /// <summary>
+        /// The hog wild context
+        /// </summary>
         private readonly HogWildContext _hogWildContext;
+
         #endregion
-        
-        //  COnstructor for the WorkingVersionsService class
+
+        // Constructor for the WorkingVersionsService class.
         internal WorkingVersionsService(HogWildContext hogWildContext)
         {
-            //  Initialize the _hogWildContext field with the provide hogWildContext instance.
+            // Initialize the _hogWildContext field with the provided HogWildContext instance.
             _hogWildContext = hogWildContext;
         }
 
+        // This method retrieves the working version of a resource.
         public WorkingVersionsView GetWorkingVersion()
         {
             return _hogWildContext.WorkingVersions
@@ -32,7 +37,5 @@ namespace HogWildSystem.BLL
                     Comments = x.Comments
                 }).FirstOrDefault();
         }
-
-
     }
 }

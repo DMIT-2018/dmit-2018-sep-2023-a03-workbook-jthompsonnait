@@ -1,74 +1,82 @@
-﻿<!-- Razor component for the page accessible at "/SamplePages/Basics"-->
+﻿<!-- Razor component for the page accessible at "/SamplePages/Basics" -->
 @page "/SamplePages/Basics"
 
-<!-- PageTitle component to set the page title-->
+<!-- PageTitle component to set the page title -->
 <PageTitle>Review page basics</PageTitle>
 
-<!-- Main heading of the page-->
+<!-- Main heading of the page -->
 <h1>Introduction to Blazor Page (Review)</h1>
 
 @{
-    //  Blazor components combine C# and HTML code in a single file
-    //  The @ symbol is used to switch between the HTML and c# environments
-    //  When using @, you're in the c# environment, allowing for c#code exceution
-    //  Without @, you're in the HTML environment, where you write standard HTML
+    // Blazor components combine C# and HTML code in a single file
+    // The '@' symbol is used to switch between the HTML and C# environments
+    // When using '@', you're in the C# environment, allowing for C# code execution
+    // Without '@', you're in the HTML environment, where you write standard HTML
 }
-<!-- This is a header indication a demonstration of using methods-->
+
+<!-- This is a header indicating a demonstration of using methods. -->
 <div>
     <h3>Demonstration of using methods</h3>
 
-    <!-- Conditionally display content based on the myName variable-->
+    <!-- Conditionally display content based on the 'myName' variable. -->
     <p>
         @if (string.IsNullOrWhiteSpace(myName))
         {
-            <!-- Display a message when myName is empty or null, indicating that the random number is odd-->
+            <!-- Display a message when 'myName' is empty or null, indicating that the random number is odd. -->
         <p>The random number is odd {@oddEvenValue}</p>
         }
         else
         {
+        <!-- Display the value of 'myName' when it's not empty. -->
         <p>@myName</p>
         }
     </p>
 
-    <!-- This is a button that triggers the RandomValue method when clicked-->
-    <button class="btn-success" @onclick="RandomValue">Random Value</button>
+    <!-- This is a button that triggers the 'RandomValue' method when clicked. -->
+    <button class="btn-success" @onclick="RandomValue">
+        Random Value
+    </button>
 </div>
+
 <section class="setflex">
-    <div class="onethird">
-        <!-- Heading for this section-->
-        <h3>Text Boxes</h3>
-        <!-- Label and input for entering an email-->
+    <div class=onethird>
+        <!-- Heading for this section -->
+        <h3>TextBoxes</h3>
+        <!-- Label and input for entering an email -->
         <label>
             Enter an Email
-            <input type="email" @bind="emailText" placeholder="Enter Email" />
+            <input type="email" @bind="emailText"
+                   placeholder="enter email" />
         </label>
         <br />
-        <!-- Label and input for entering an password-->
+        <!-- Label and input for entering a password -->
         <label>
-            Enter an password
-            <input type="password" @bind="passwordText" placeholder="Enter password" />
+            Enter a Password
+            <input type="password" @bind="passwordText"
+                   placeholder="enter password" />
         </label>
         <br />
-        <!-- Label and input for entering an date-->
+        <!-- Label and input for entering a date -->
         <label>
-            Enter an Date
+            Enter a Date
             <input type="date" @bind="dateText" />
         </label>
         <br />
-
-        <!-- Button to trigger the Text Submit method-->
-        <button class="btn-success" @onclick="TextSubmit">Text Submit</button>
+        <!-- Button to trigger the TextSubmit method -->
+        <button class="btn-success" @onclick="TextSubmit">
+            Text Submit
+        </button>
     </div>
 
-    <div class="onethird">
-        <h3>Radio Buttons, Check Box and Text Area</h3>
-        <br/>
-        <!-- Radio Buttons using Collections-->
+    <div class=onethird>
+        <!-- Individual Radio Buttons -->
+        <h3>Radiobuttons CheckBox TextArea</h3>
+        <br />
+        <!-- Radio Buttons using Collections -->
         <label>
-            Select your favorite meal using a foreach loop
-            <br/>
+            Select your favorite meal using a foreach loop<br />
         </label>
-        <br/>
+        <br />
         @foreach (var item in @meals)
         {
             @*  Loop through the meals list and create radio buttons for each meal option *@
@@ -84,12 +92,13 @@
             <!-- Label text indicating the agreement -->
             &nbsp; I agree to terms
         </label>
+
         <br />
         <br />
         <!-- Textarea input element -->
         <textarea rows="5" cols="50" placeholder="enter message"
         @bind="messageBody"></textarea><!-- Data binding to the 'messageBody' C# variable -->
-        
+
         <br />
         <br />
         <!-- Button element for submitting the RadioCheckAreaSubmit method when clicked -->
@@ -97,19 +106,18 @@
             Radio/Check/Area Submit
         </button>
     </div>
-    
     <div class=onethird>
         <h3>List and Slider</h3>
         <label>
             <!-- Display a label for the dropdown, instructing the user to select their favorite ride. -->
             Select your favorite Ride
-
+    
             <!-- Create a dropdown select element that binds to the 'myRide' property. -->
             <select @bind="myRide">
-
+        
                 <!-- Default option with a value of "0" and instructs the user to select a ride. -->
                 <option value="0">Select ride ...</option>
-
+        
                 <!-- Loop through each 'ride' in the 'rides' collection and create an option element for each. -->
                 @foreach (var ride in @rides)
                 {
@@ -121,6 +129,7 @@
                 }
             </select>
         </label>
+        <br />
         <br />
         <label>
             <!-- Display a label for the dropdown, instructing the user to select their favorite vacation spot. -->
@@ -161,7 +170,6 @@
         </button>
     </div>
 </section>
-
 <div>
     <h2>@feedback</h2>
 </div>

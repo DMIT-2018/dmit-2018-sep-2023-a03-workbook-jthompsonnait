@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\HogWildWebApp.csproj": {}
+    "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildWebApp\\HogWildWebApp.csproj": {}
   },
   "projects": {
-    "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildSystem\\HogWildSystem.csproj": {
+    "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildSystem\\HogWildSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildSystem\\HogWildSystem.csproj",
+        "projectUniqueName": "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildSystem\\HogWildSystem.csproj",
         "projectName": "HogWildSystem",
-        "projectPath": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildSystem\\HogWildSystem.csproj",
+        "projectPath": "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildSystem\\HogWildSystem.csproj",
         "packagesPath": "C:\\Users\\JTHOMPSON\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildSystem\\obj\\",
+        "outputPath": "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildSystem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,6 +45,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Components.Forms": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.13, )"
@@ -70,14 +78,14 @@
         }
       }
     },
-    "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\HogWildWebApp.csproj": {
+    "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildWebApp\\HogWildWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\HogWildWebApp.csproj",
+        "projectUniqueName": "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildWebApp\\HogWildWebApp.csproj",
         "projectName": "HogWildWebApp",
-        "projectPath": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\HogWildWebApp.csproj",
+        "projectPath": "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildWebApp\\HogWildWebApp.csproj",
         "packagesPath": "C:\\Users\\JTHOMPSON\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildWebApp\\obj\\",
+        "outputPath": "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildWebApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -99,8 +107,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildSystem\\HogWildSystem.csproj": {
-                "projectPath": "C:\\GitHub\\dmit-2018-sep-2023-a03-workbook-jthompsonnait\\BlazorDemo\\Hogwild\\HogWildSystem\\HogWildSystem.csproj"
+              "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildSystem\\HogWildSystem.csproj": {
+                "projectPath": "C:\\OD\\OneDrive - NAIT\\DMIT 2018 - Course Files\\Blazor Demo\\HogWild\\HogWildSystem\\HogWildSystem.csproj"
               }
             }
           }
@@ -115,6 +123,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "BlazorDialog": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.13, )"
